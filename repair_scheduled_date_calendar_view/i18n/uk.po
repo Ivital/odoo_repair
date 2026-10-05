@@ -47,3 +47,8 @@ msgstr "Тривалість за замовчуванням"
 #: model_terms:ir.ui.view,arch_db:repair_scheduled_date_calendar_view.view_repair_order_calendar
 msgid "Repair Orders Calendar"
 msgstr "Календар замовлень ремонту"
+
+#. module: repair_scheduled_date_calendar_view
+#: model:ir.model.fields,help:repair_scheduled_date_calendar_view.field_repair_order__planned_duration
+msgid "Planned duration of the repair order in hours."
+msgstr "Запланована тривалість замовлення на ремонт у годинах."

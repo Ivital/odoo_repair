@@ -95,3 +95,12 @@ msgstr "Тип аналітичної ціни"
 #: model_terms:ir.ui.view,arch_db:repair_analytic.view_account_analytic_line_search_repair
 msgid "Search Analytic Lines"
 msgstr "Пошук аналітичних рядків"
+
+#. module: repair_analytic
+#: model:ir.model.fields,help:repair_analytic.field_stock_move__cost
+msgid ""
+"Product cost, used when the repair operation type's Analytic Price Type is "
+"set to 'Cost'."
+msgstr ""
+"Собівартість товару, що використовується, коли для типу ремонтної операції "
+"«Тип аналітичної ціни» встановлено «Собівартість»."

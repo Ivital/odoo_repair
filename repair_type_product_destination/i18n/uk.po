@@ -17,3 +17,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair_type_product_destination.field_stock_picking_type__default_product_location_dest_id
 msgid "Default Product Destination Location"
 msgstr "Типове місце призначення товару"
+
+#. module: repair_type_product_destination
+#: model:ir.model.fields,help:repair_type_product_destination.field_stock_picking_type__default_product_location_dest_id
+msgid ""
+"This is the default product destination location where the repaired product "
+"will be stored.."
+msgstr ""
+"Це типове місце призначення товару, де зберігатиметься відремонтований "
+"товар."
+
+#. module: repair_type_product_destination
+#: model:ir.model.fields,help:repair_type_product_destination.field_repair_order__product_location_dest_id
+msgid "This is the location where the repaired product will be stored."
+msgstr "Місце, де зберігатиметься відремонтований товар."

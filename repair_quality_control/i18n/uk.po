@@ -115,3 +115,8 @@ msgid ""
 msgstr ""
 "Це поле дає змогу вибрати стан замовлення на ремонт, у якому буде створено "
 "перевірку QC."
+
+#. module: repair_quality_control
+#: model:ir.model,name:repair_quality_control.model_qc_inspection
+msgid "Quality control inspection"
+msgstr "Перевірка контролю якості"

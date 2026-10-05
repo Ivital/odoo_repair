@@ -125,3 +125,18 @@ msgstr "Групи замовлень на ремонт"
 #: model:ir.model.fields,field_description:repair_order_group.field_repair_order__show_add_grouped_repair
 msgid "Show Add Grouped Repair"
 msgstr "Показувати «Додати згрупований ремонт»"
+
+#. module: repair_order_group
+#: model:ir.model.fields,help:repair_order_group.field_repair_order__grouped_repair_ids
+msgid "All other repairs that belong to the same group."
+msgstr "Усі інші ремонти, що належать до тієї самої групи."
+
+#. module: repair_order_group
+#: model:ir.model.fields,help:repair_order_group.field_repair_order__group_id
+msgid "Repairs sharing the same group can be processed and quoted together."
+msgstr "Ремонти з однаковою групою можна обробляти та оцінювати разом."
+
+#. module: repair_order_group
+#: model:ir.model.fields,help:repair_order_group.field_repair_order__show_add_grouped_repair
+msgid "Technical field used to control the Add Grouped Repair button."
+msgstr "Технічне поле для керування кнопкою «Додати згрупований ремонт»."

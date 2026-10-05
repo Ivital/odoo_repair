@@ -33,3 +33,13 @@ msgstr "Тривалість (год.)"
 #: model:ir.model.fields,field_description:repair_timesheet.field_account_analytic_line__repair_order_id
 msgid "Related Repair Order"
 msgstr "Пов’язане замовлення на ремонт"
+
+#. module: repair_timesheet
+#: model:ir.model.fields,help:repair_timesheet.field_account_analytic_line__repair_order_id
+msgid "The repair order related to this timesheet entry."
+msgstr "Замовлення на ремонт, пов’язане з цим записом табеля."
+
+#. module: repair_timesheet
+#: model:ir.model.fields,help:repair_timesheet.field_repair_order__timesheet_total_hours
+msgid "Total hours spent on this repair order."
+msgstr "Загальна кількість годин, витрачених на це замовлення на ремонт."

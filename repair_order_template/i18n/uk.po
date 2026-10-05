@@ -182,3 +182,8 @@ msgstr "Шаблони замовлень ремонту"
 #: model_terms:ir.ui.view,arch_db:repair_order_template.view_repair_order_template_form
 msgid "e.g. General repair"
 msgstr "напр. Загальний ремонт"
+
+#. module: repair_order_template
+#: model:ir.model,name:repair_order_template.model_repair_order_template_line
+msgid "Repair Order Template Line"
+msgstr "Рядок шаблону замовлення на ремонт"

@@ -86,3 +86,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair_service.field_repair_service__repair_id
 msgid "Repair Order Reference"
 msgstr "Посилання на замовлення ремонту"
+
+#. module: repair_service
+#: model:ir.model,name:repair_service.model_repair_service
+msgid "Repair Service"
+msgstr "Послуга ремонту"

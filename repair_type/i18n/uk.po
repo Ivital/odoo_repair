@@ -27,3 +27,30 @@ msgstr "Місце джерела переробки за замовчуванн
 #: model:ir.model.fields,field_description:repair_type.field_stock_picking_type__default_remove_location_src_id
 msgid "Default Remove Source Location"
 msgstr "Видаляти місце джерела за замовчуванням"
+
+#. module: repair_type
+#: model:ir.model.fields,help:repair_type.field_stock_picking_type__default_add_location_src_id
+msgid ""
+"This is the default add source location when you create a repair order with "
+"this operation type."
+msgstr ""
+"Це типове вихідне місце додавання під час створення ремонтного замовлення з "
+"цим типом операції."
+
+#. module: repair_type
+#: model:ir.model.fields,help:repair_type.field_stock_picking_type__default_recycle_location_src_id
+msgid ""
+"This is the default recycle source location when you create a repair order "
+"with this operation type."
+msgstr ""
+"Це типове вихідне місце переробки під час створення ремонтного замовлення з "
+"цим типом операції."
+
+#. module: repair_type
+#: model:ir.model.fields,help:repair_type.field_stock_picking_type__default_remove_location_src_id
+msgid ""
+"This is the default remove source location when you create a repair order "
+"with this operation type."
+msgstr ""
+"Це типове вихідне місце видалення під час створення ремонтного замовлення з "
+"цим типом операції."

@@ -28,3 +28,12 @@ msgstr "Ремонтне замовлення"
 #: model:ir.model.fields,field_description:repair_analytic_timesheet.field_project_project__spread_timesheet_cost_on_repair
 msgid "Spread Timesheet Cost on Repair"
 msgstr "Розподіляти вартість табеля на ремонт"
+
+#. module: repair_analytic_timesheet
+#: model:ir.model.fields,help:repair_analytic_timesheet.field_project_project__spread_timesheet_cost_on_repair
+msgid ""
+"When enabled, timesheet costs from this project will be included in the "
+"analytic distribution when the linked repair order is completed."
+msgstr ""
+"Якщо увімкнено, витрати за табелями часу цього проєкту буде включено до "
+"аналітичного розподілу після завершення пов’язаного замовлення на ремонт."
