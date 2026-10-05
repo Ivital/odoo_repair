@@ -41,3 +41,23 @@ msgstr "Відновлений товар"
 #: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__to_refurbish
 msgid "To Refurbish"
 msgstr "На відновлення"
+
+#. module: repair_refurbish
+#: model:ir.model.fields,help:repair_refurbish.field_repair_order__refurbish_tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Забезпечує простежуваність складованого товару на вашому складі."
+
+#. module: repair_refurbish
+#: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__refurbish_location_dest_id
+msgid "Refurbished Delivery Location"
+msgstr "Місце доставки відновленого товару"
+
+#. module: repair_refurbish
+#: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__refurbish_move_id
+msgid "Refurbished Inventory Move"
+msgstr "Переміщення відновлених запасів"
+
+#. module: repair_refurbish
+#: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__refurbish_tracking
+msgid "Refurbished Product Tracking"
+msgstr "Відстеження відновленого товару"

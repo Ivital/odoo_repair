@@ -23,3 +23,13 @@ msgstr "Табелі"
 #: model:ir.model.fields,field_description:repair_timesheet.field_repair_order__timesheet_total_hours
 msgid "Total Hours"
 msgstr "Усього годин"
+
+#. module: repair_timesheet
+#: model_terms:ir.ui.view,arch_db:repair_timesheet.repair_order_form_view_timesheet_inherit
+msgid "Duration (Hour(s))"
+msgstr "Тривалість (год.)"
+
+#. module: repair_timesheet
+#: model:ir.model.fields,field_description:repair_timesheet.field_account_analytic_line__repair_order_id
+msgid "Related Repair Order"
+msgstr "Пов’язане замовлення на ремонт"

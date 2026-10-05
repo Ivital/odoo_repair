@@ -27,3 +27,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair_scheduled_date_calendar_view.view_repair_order_form_inherit_duration
 msgid "Order Duration"
 msgstr "Тривалість замовлення"
+
+#. module: repair_scheduled_date_calendar_view
+#: model_terms:ir.ui.view,arch_db:repair_scheduled_date_calendar_view.res_config_settings_view_form_inherit_repair_calendar
+msgid "Default Planned Order Duration"
+msgstr "Тривалість планового замовлення за замовчуванням"
+
+#. module: repair_scheduled_date_calendar_view
+#: model:ir.model.fields,field_description:repair_scheduled_date_calendar_view.field_repair_order__planned_duration
+msgid "Planned Duration"
+msgstr "Запланована тривалість"
+
+#. module: repair_scheduled_date_calendar_view
+#: model:ir.model.fields,field_description:repair_scheduled_date_calendar_view.field_res_config_settings__planned_duration_default
+msgid "Planned Duration Default"
+msgstr "Тривалість за замовчуванням"
+
+#. module: repair_scheduled_date_calendar_view
+#: model_terms:ir.ui.view,arch_db:repair_scheduled_date_calendar_view.view_repair_order_calendar
+msgid "Repair Orders Calendar"
+msgstr "Календар замовлень ремонту"

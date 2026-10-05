@@ -148,3 +148,37 @@ msgid "Use templates to save time when creating repair orders."
 msgstr ""
 "Використовуйте шаблони, щоб заощадити час під час створення замовлень на "
 "ремонт."
+
+#. module: repair_order_template
+#: model_terms:ir.ui.view,arch_db:repair_order_template.view_repair_order_template_form
+msgid "Add internal notes."
+msgstr "Додайте внутрішні примітки."
+
+#. module: repair_order_template
+#: model:ir.model.fields,help:repair_order_template.field_repair_order_template_line__product_uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+"Перетворення між одиницями вимірювання можливе лише тоді, коли вони належать"
+" до однієї категорії. Перетворення виконується на основі коефіцієнтів."
+
+#. module: repair_order_template
+#: model_terms:ir.actions.act_window,help:repair_order_template.action_repair_order_template
+msgid "Create your Repair Order template"
+msgstr "Створіть шаблон замовлення ремонту"
+
+#. module: repair_order_template
+#: model:ir.model.fields,field_description:repair_order_template.field_repair_order_template__product_id
+msgid "Product to Repair"
+msgstr "Товар для ремонту"
+
+#. module: repair_order_template
+#: model:ir.actions.act_window,name:repair_order_template.action_repair_order_template
+msgid "Repair Order Templates"
+msgstr "Шаблони замовлень ремонту"
+
+#. module: repair_order_template
+#: model_terms:ir.ui.view,arch_db:repair_order_template.view_repair_order_template_form
+msgid "e.g. General repair"
+msgstr "напр. Загальний ремонт"

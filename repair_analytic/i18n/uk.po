@@ -85,3 +85,13 @@ msgstr "Групувати за..."
 #: model_terms:ir.ui.view,arch_db:repair_analytic.view_account_analytic_line_search_repair
 msgid "Repair Orders"
 msgstr "Замовлення на ремонт"
+
+#. module: repair_analytic
+#: model:ir.model.fields,field_description:repair_analytic.field_stock_picking_type__analytic_price_type
+msgid "Analytic Price Type"
+msgstr "Тип аналітичної ціни"
+
+#. module: repair_analytic
+#: model_terms:ir.ui.view,arch_db:repair_analytic.view_account_analytic_line_search_repair
+msgid "Search Analytic Lines"
+msgstr "Пошук аналітичних рядків"

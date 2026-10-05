@@ -23,3 +23,8 @@ msgstr "Ремонт"
 #: model:ir.model.fields,field_description:repair_analytic_timesheet.field_timesheets_analysis_report__repair_order_id
 msgid "Repair Order"
 msgstr "Ремонтне замовлення"
+
+#. module: repair_analytic_timesheet
+#: model:ir.model.fields,field_description:repair_analytic_timesheet.field_project_project__spread_timesheet_cost_on_repair
+msgid "Spread Timesheet Cost on Repair"
+msgstr "Розподіляти вартість табеля на ремонт"

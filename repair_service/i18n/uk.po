@@ -72,3 +72,17 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:repair_service.field_repair_service__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: repair_service
+#: model:ir.model.fields,help:repair_service.field_repair_service__product_uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+"Перетворення між одиницями вимірювання можливе лише тоді, коли вони належать"
+" до однієї категорії. Перетворення виконується на основі коефіцієнтів."
+
+#. module: repair_service
+#: model:ir.model.fields,field_description:repair_service.field_repair_service__repair_id
+msgid "Repair Order Reference"
+msgstr "Посилання на замовлення ремонту"

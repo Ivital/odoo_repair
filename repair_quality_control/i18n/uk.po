@@ -65,3 +65,53 @@ msgstr "Під час підтвердження"
 #: model:ir.model.fields.selection,name:repair_quality_control.selection__res_company__repair_generate_qc_inspection_state__done
 msgid "On Done"
 msgstr "Після виконання"
+
+#. module: repair_quality_control
+#: model_terms:ir.ui.view,arch_db:repair_quality_control.view_repair_order_form_inherit
+msgid "<span class=\"o_stat_text\">Inspections</span>"
+msgstr "<span class=\"o_stat_text\">Перевірки</span>"
+
+#. module: repair_quality_control
+#: model_terms:ir.ui.view,arch_db:repair_quality_control.res_config_settings_view_form
+msgid ""
+"If checked, QC Inspections will be automatically created for Repair Order, "
+"on state changes"
+msgstr ""
+"Якщо встановлено, інспекції контролю якості автоматично створюватимуться для"
+" ремонтного замовлення під час зміни стану"
+
+#. module: repair_quality_control
+#: model:ir.model.fields,help:repair_quality_control.field_repair_order__auto_generate_qc_inspection
+#: model:ir.model.fields,help:repair_quality_control.field_res_company__repair_auto_generate_qc_inspection
+#: model:ir.model.fields,help:repair_quality_control.field_res_config_settings__repair_auto_generate_qc_inspection
+msgid ""
+"If checked, QC Inspections will be automatically created for Repair Order, "
+"on state changes."
+msgstr ""
+"Якщо позначено, перевірки QC автоматично створюватимуться для замовлення на "
+"ремонт під час зміни стану."
+
+#. module: repair_quality_control
+#: model:ir.model.fields,field_description:repair_quality_control.field_repair_order__show_button_create_qc_inspection
+msgid "Show Button Create Qc Inspection"
+msgstr "Показувати кнопку створення перевірки якості"
+
+#. module: repair_quality_control
+#: model_terms:ir.ui.view,arch_db:repair_quality_control.res_config_settings_view_form
+msgid ""
+"This field allows you to select the state of the Repair Order in which the "
+"QC Inspection will be generated"
+msgstr ""
+"Це поле дає змогу вибрати стан ремонтного замовлення, у якому буде створено "
+"інспекцію контролю якості"
+
+#. module: repair_quality_control
+#: model:ir.model.fields,help:repair_quality_control.field_repair_order__generate_qc_inspection_state
+#: model:ir.model.fields,help:repair_quality_control.field_res_company__repair_generate_qc_inspection_state
+#: model:ir.model.fields,help:repair_quality_control.field_res_config_settings__repair_generate_qc_inspection_state
+msgid ""
+"This field allows you to select the state of the Repair Order in which the "
+"QC Inspection will be generated."
+msgstr ""
+"Це поле дає змогу вибрати стан замовлення на ремонт, у якому буде створено "
+"перевірку QC."

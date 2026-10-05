@@ -105,3 +105,23 @@ msgstr "Група ремонту"
 #: model_terms:ir.ui.view,arch_db:repair_order_group.view_repair_order_group_form
 msgid "Repair Order Group"
 msgstr "Група замовлень на ремонт"
+
+#. module: repair_order_group
+#: model_terms:ir.ui.view,arch_db:repair_order_group.view_repair_order_form_inherit_group
+msgid "Add Grouped Repair"
+msgstr "Додати згрупований ремонт"
+
+#. module: repair_order_group
+#: model_terms:ir.ui.view,arch_db:repair_order_group.view_repair_order_form_inherit_group
+msgid "Create a new repair linked to the same group and partner."
+msgstr "Створити новий ремонт, пов’язаний із тією ж групою та контрагентом."
+
+#. module: repair_order_group
+#: model:ir.actions.act_window,name:repair_order_group.action_repair_order_group
+msgid "Repair Order Groups"
+msgstr "Групи замовлень на ремонт"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order__show_add_grouped_repair
+msgid "Show Add Grouped Repair"
+msgstr "Показувати «Додати згрупований ремонт»"

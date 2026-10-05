@@ -28,3 +28,8 @@ msgstr "Пов’язаний ремонт"
 #: model:ir.model.fields,field_description:repair_stock.field_repair_order__picking_count
 msgid "Transfers Count"
 msgstr "Кількість переміщень"
+
+#. module: repair_stock
+#: model_terms:ir.ui.view,arch_db:repair_stock.view_repair_order_form_repair_stock_move_inherited
+msgid "Transfers associated with this repair order"
+msgstr "Переміщення, пов’язані з цим замовленням ремонту"
