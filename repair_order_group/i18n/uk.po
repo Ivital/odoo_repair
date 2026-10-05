@@ -1,0 +1,59 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__partner_id
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__repair_ids
+msgid "Repair"
+msgstr "Ремонт"
+
+#. module: repair_order_group
+#: model:ir.ui.menu,name:repair_order_group.menu_repair_order_group
+msgid "Repair Groups"
+msgstr "Групи ремонтів"
+
+#. module: repair_order_group
+#: model_terms:ir.ui.view,arch_db:repair_order_group.view_repair_order_group_form
+msgid "Repairs"
+msgstr "Ремонти"

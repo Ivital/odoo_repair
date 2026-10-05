@@ -1,0 +1,44 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: repair_analytic
+#: model:ir.model.fields,field_description:repair_analytic.field_stock_move__cost
+#: model:ir.model.fields.selection,name:repair_analytic.selection__stock_picking_type__analytic_price_type__cost
+#: model_terms:ir.ui.view,arch_db:repair_analytic.view_repair_order_form_analytic
+msgid "Cost"
+msgstr "Вартість"
+
+#. module: repair_analytic
+#: model_terms:ir.ui.view,arch_db:repair_analytic.view_account_analytic_line_search_repair
+msgid "Date"
+msgstr "Дата"
+
+#. module: repair_analytic
+#: model:ir.model.fields.selection,name:repair_analytic.selection__stock_picking_type__analytic_price_type__price
+#: model_terms:ir.ui.view,arch_db:repair_analytic.view_repair_order_form_analytic
+msgid "Price"
+msgstr "Ціна"
+
+#. module: repair_analytic
+#: model:ir.model.fields.selection,name:repair_analytic.selection__account_analytic_applicability__business_domain__repair
+#: model_terms:ir.ui.view,arch_db:repair_analytic.view_account_analytic_line_form_inherit_repair
+msgid "Repair"
+msgstr "Ремонт"
+
+#. module: repair_analytic
+#: model:ir.model,name:repair_analytic.model_repair_order
+#: model_terms:ir.ui.view,arch_db:repair_analytic.view_account_analytic_line_search_repair
+msgid "Repair Order"
+msgstr "Ремонтне замовлення"

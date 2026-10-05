@@ -9,6 +9,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: partner_repair_button
-#: model:ir.module.module,shortdesc:base.module_partner_repair_button model:ir.module.module,summary:base.module_partner_repair_button
+#: model:ir.module.module,shortdesc:base.module_partner_repair_button
+#: model:ir.module.module,summary:base.module_partner_repair_button
 msgid "Partner Repair Smart Button"
 msgstr "Смарт-кнопка ремонтів партнера"
+
+#. module: partner_repair_button
+#: model:ir.model.fields,field_description:partner_repair_button.field_res_partner__repair_count
+#: model:ir.model.fields,field_description:partner_repair_button.field_res_users__repair_count
+#: model_terms:ir.ui.view,arch_db:partner_repair_button.view_partner_form_repair_button
+msgid "Repairs"
+msgstr "Ремонти"
