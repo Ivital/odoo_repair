@@ -62,3 +62,13 @@ msgstr "Послідовність"
 #: model_terms:ir.ui.view,arch_db:repair_service.view_repair_order_form_inherit
 msgid "Services"
 msgstr "Послуги"
+
+#. module: repair_service
+#: model:ir.model.fields,field_description:repair_service.field_repair_service__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: repair_service
+#: model:ir.model.fields,field_description:repair_service.field_repair_service__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

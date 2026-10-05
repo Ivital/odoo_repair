@@ -27,3 +27,41 @@ msgstr "Ремонт"
 #: model:qc.trigger,name:repair_quality_control.qc_trigger_repair
 msgid "Repairs"
 msgstr "Ремонти"
+
+#. module: repair_quality_control
+#: model_terms:ir.ui.view,arch_db:repair_quality_control.view_qc_inspection_form_inherit
+msgid "<span class=\"o_stat_text\">Repair order</span>"
+msgstr "<span class=\"o_stat_text\">Замовлення на ремонт</span>"
+
+#. module: repair_quality_control
+#: model:ir.model.fields,field_description:repair_quality_control.field_repair_order__auto_generate_qc_inspection
+#: model:ir.model.fields,field_description:repair_quality_control.field_res_company__repair_auto_generate_qc_inspection
+#: model:ir.model.fields,field_description:repair_quality_control.field_res_config_settings__repair_auto_generate_qc_inspection
+#: model_terms:ir.ui.view,arch_db:repair_quality_control.res_config_settings_view_form
+msgid "Auto-generate QC Inspection"
+msgstr "Автоматично створювати перевірку якості"
+
+#. module: repair_quality_control
+#. odoo-python
+#: code:addons/repair_quality_control/models/repair.py:0
+#: model_terms:ir.ui.view,arch_db:repair_quality_control.view_repair_order_form_inherit
+msgid "Create Inspection"
+msgstr "Створити перевірку"
+
+#. module: repair_quality_control
+#: model:ir.model.fields,field_description:repair_quality_control.field_repair_order__generate_qc_inspection_state
+#: model:ir.model.fields,field_description:repair_quality_control.field_res_company__repair_generate_qc_inspection_state
+#: model:ir.model.fields,field_description:repair_quality_control.field_res_config_settings__repair_generate_qc_inspection_state
+#: model_terms:ir.ui.view,arch_db:repair_quality_control.res_config_settings_view_form
+msgid "Generate QC Inspection State"
+msgstr "Стан генерації перевірки якості"
+
+#. module: repair_quality_control
+#: model:ir.model.fields.selection,name:repair_quality_control.selection__res_company__repair_generate_qc_inspection_state__confirmed
+msgid "On Confirm"
+msgstr "Під час підтвердження"
+
+#. module: repair_quality_control
+#: model:ir.model.fields.selection,name:repair_quality_control.selection__res_company__repair_generate_qc_inspection_state__done
+msgid "On Done"
+msgstr "Після виконання"

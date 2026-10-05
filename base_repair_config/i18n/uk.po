@@ -22,3 +22,8 @@ msgstr "Ремонт"
 #: model:ir.ui.menu,name:base_repair_config.menu_repair_config_settings
 msgid "Settings"
 msgstr "Налаштування"
+
+#. module: base_repair_config
+#: model:ir.actions.act_window,name:base_repair_config.action_repair_config_settings
+msgid "Repair Settings"
+msgstr "Налаштування ремонту"

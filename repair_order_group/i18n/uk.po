@@ -57,3 +57,51 @@ msgstr "Групи ремонтів"
 #: model_terms:ir.ui.view,arch_db:repair_order_group.view_repair_order_group_form
 msgid "Repairs"
 msgstr "Ремонти"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_res_company__add_grouped_repair_state_ids
+#: model:ir.model.fields,field_description:repair_order_group.field_res_config_settings__add_grouped_repair_state_ids
+msgid "Add Grouped Repair Available In"
+msgstr "Додати доступний згрупований ремонт у"
+
+#. module: repair_order_group
+#: model_terms:ir.ui.view,arch_db:repair_order_group.view_repair_order_search_inherit_group
+msgid "By Group"
+msgstr "За групою"
+
+#. module: repair_order_group
+#: model:ir.actions.act_window,name:repair_order_group.action_repair_orders_by_group
+msgid "Group Repairs"
+msgstr "Групові ремонти"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order__grouped_repair_ids
+#: model_terms:ir.ui.view,arch_db:repair_order_group.view_repair_order_form_inherit_group
+msgid "Grouped Repairs"
+msgstr "Згруповані ремонти"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order_group__repair_count
+msgid "Repair Count"
+msgstr "Кількість ремонтів"
+
+#. module: repair_order_group
+#: model:ir.model.fields,field_description:repair_order_group.field_repair_order__group_id
+msgid "Repair Group"
+msgstr "Група ремонту"
+
+#. module: repair_order_group
+#: model:ir.model,name:repair_order_group.model_repair_order_group
+#: model_terms:ir.ui.view,arch_db:repair_order_group.view_repair_order_group_form
+msgid "Repair Order Group"
+msgstr "Група замовлень на ремонт"

@@ -42,3 +42,46 @@ msgstr "Ремонт"
 #: model_terms:ir.ui.view,arch_db:repair_analytic.view_account_analytic_line_search_repair
 msgid "Repair Order"
 msgstr "Ремонтне замовлення"
+
+#. module: repair_analytic
+#: model_terms:ir.ui.view,arch_db:repair_analytic.repair_view_picking_type_form_analytic
+msgid "Analytic"
+msgstr "Аналітичний"
+
+#. module: repair_analytic
+#: model:ir.model.fields,field_description:repair_analytic.field_repair_order__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Аналітичний розподіл"
+
+#. module: repair_analytic
+#. odoo-python
+#: code:addons/repair_analytic/models/repair_order.py:0
+#: model:ir.model.fields,field_description:repair_analytic.field_repair_order__analytic_line_count
+#: model_terms:ir.ui.view,arch_db:repair_analytic.view_repair_order_form_analytic
+msgid "Analytic Lines"
+msgstr "Аналітичні рядки"
+
+#. module: repair_analytic
+#: model:ir.model.fields,field_description:repair_analytic.field_repair_order__analytic_precision
+msgid "Analytic Precision"
+msgstr "Точність аналітики"
+
+#. module: repair_analytic
+#: model:ir.model.fields,field_description:repair_analytic.field_stock_move__company_currency_id
+msgid "Company Currency"
+msgstr "Валюта компанії"
+
+#. module: repair_analytic
+#: model:ir.model.fields,field_description:repair_analytic.field_repair_order__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "Аналітичний рахунок розподілу"
+
+#. module: repair_analytic
+#: model_terms:ir.ui.view,arch_db:repair_analytic.view_account_analytic_line_search_repair
+msgid "Group By..."
+msgstr "Групувати за..."
+
+#. module: repair_analytic
+#: model_terms:ir.ui.view,arch_db:repair_analytic.view_account_analytic_line_search_repair
+msgid "Repair Orders"
+msgstr "Замовлення на ремонт"

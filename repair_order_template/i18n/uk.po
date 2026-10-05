@@ -93,3 +93,58 @@ msgstr "Шаблон"
 #: model:ir.model.fields,field_description:repair_order_template.field_repair_order_template_line__type
 msgid "Type"
 msgstr "Тип"
+
+#. module: repair_order_template
+#: model_terms:ir.ui.view,arch_db:repair_order_template.view_repair_order_template_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: repair_order_template
+#: model:ir.model.fields,field_description:repair_order_template.field_repair_order_template__internal_notes
+msgid "Internal Notes"
+msgstr "Внутрішні примітки"
+
+#. module: repair_order_template
+#: model:ir.model.fields,field_description:repair_order_template.field_repair_order_template__write_uid
+#: model:ir.model.fields,field_description:repair_order_template.field_repair_order_template_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: repair_order_template
+#: model:ir.model.fields,field_description:repair_order_template.field_repair_order_template__write_date
+#: model:ir.model.fields,field_description:repair_order_template.field_repair_order_template_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: repair_order_template
+#: model:ir.model.fields,field_description:repair_order_template.field_repair_order__repair_order_template_id
+msgid "Order Template"
+msgstr "Шаблон замовлення"
+
+#. module: repair_order_template
+#: model_terms:ir.ui.view,arch_db:repair_order_template.view_repair_order_template_form
+msgid "Repair Notes"
+msgstr "Примітки до ремонту"
+
+#. module: repair_order_template
+#: model:ir.model,name:repair_order_template.model_repair_order_template
+msgid "Repair Order Template"
+msgstr "Шаблон замовлення на ремонт"
+
+#. module: repair_order_template
+#: model:ir.model.fields,field_description:repair_order_template.field_repair_order_template__under_warranty
+msgid "Under Warranty"
+msgstr "На гарантії"
+
+#. module: repair_order_template
+#: model:ir.model.fields,field_description:repair_order_template.field_repair_order_template_line__product_uom
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"
+
+#. module: repair_order_template
+#: model:ir.model.fields,help:repair_order_template.field_repair_order__repair_order_template_id
+#: model_terms:ir.actions.act_window,help:repair_order_template.action_repair_order_template
+msgid "Use templates to save time when creating repair orders."
+msgstr ""
+"Використовуйте шаблони, щоб заощадити час під час створення замовлень на "
+"ремонт."

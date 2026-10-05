@@ -18,3 +18,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair_stock.view_repair_order_form_repair_stock_move_inherited
 msgid "Transfers"
 msgstr "Переміщення"
+
+#. module: repair_stock
+#: model:ir.model.fields,field_description:repair_stock.field_stock_move__related_repair_id
+msgid "Related Repair"
+msgstr "Пов’язаний ремонт"
+
+#. module: repair_stock
+#: model:ir.model.fields,field_description:repair_stock.field_repair_order__picking_count
+msgid "Transfers Count"
+msgstr "Кількість переміщень"

@@ -33,3 +33,38 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:repair_picking_after_done.field_repair_move_transfer__repair_order_id
 msgid "Repair Order"
 msgstr "Ремонтне замовлення"
+
+#. module: repair_picking_after_done
+#: model_terms:ir.ui.view,arch_db:repair_picking_after_done.view_repair_move_transfer_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: repair_picking_after_done
+#: model_terms:ir.ui.view,arch_db:repair_picking_after_done.repair_type_form_inherit
+msgid "Create Transfer"
+msgstr "Створити переміщення"
+
+#. module: repair_picking_after_done
+#: model_terms:ir.ui.view,arch_db:repair_picking_after_done.view_repair_move_transfer_wizard
+msgid "Create transfer"
+msgstr "Створити переміщення"
+
+#. module: repair_picking_after_done
+#: model:ir.model.fields,field_description:repair_picking_after_done.field_repair_move_transfer__location_dest_id
+msgid "Destination location"
+msgstr "Місце призначення"
+
+#. module: repair_picking_after_done
+#: model:ir.model.fields,field_description:repair_picking_after_done.field_repair_move_transfer__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: repair_picking_after_done
+#: model:ir.model.fields,field_description:repair_picking_after_done.field_repair_move_transfer__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: repair_picking_after_done
+#: model_terms:ir.ui.view,arch_db:repair_picking_after_done.view_repair_move_transfer_wizard
+msgid "or"
+msgstr "або"
