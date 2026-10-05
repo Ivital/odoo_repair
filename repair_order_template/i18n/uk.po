@@ -187,3 +187,9 @@ msgstr "напр. Загальний ремонт"
 #: model:ir.model,name:repair_order_template.model_repair_order_template_line
 msgid "Repair Order Template Line"
 msgstr "Рядок шаблону замовлення на ремонт"
+
+#. module: repair_order_template
+#. odoo-python
+#: code:addons/repair_order_template/models/repair_order.py:0
+msgid "Order Template can only be set on draft orders"
+msgstr "Шаблон замовлення можна встановити лише для замовлень у чернетці"

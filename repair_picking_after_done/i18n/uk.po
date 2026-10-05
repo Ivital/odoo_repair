@@ -116,3 +116,31 @@ msgstr ""
 #: model:ir.model,name:repair_picking_after_done.model_repair_move_transfer
 msgid "Create an internal transfer from repaired moves"
 msgstr "Створити внутрішнє переміщення з відремонтованих переміщень"
+
+#. module: repair_picking_after_done
+#. odoo-python
+#: code:addons/repair_picking_after_done/models/repair.py:0
+msgid ""
+"Automatic transfer cannot be completed because no product is specified for "
+"this repair order. Please ensure that a product is assigned to the repair "
+"order before proceeding with the transfer."
+msgstr ""
+"Автоматичне переміщення неможливо завершити, оскільки для цього замовлення "
+"на ремонт не вказано товар. Перед виконанням переміщення переконайтеся, що "
+"замовленню на ремонт призначено товар."
+
+#. module: repair_picking_after_done
+#. odoo-python
+#: code:addons/repair_picking_after_done/wizards/repair_move_transfer.py:0
+msgid ""
+"Quantity to transfer cannot exceed the remaining quantity in the repair "
+"order."
+msgstr ""
+"Кількість для переміщення не може перевищувати залишок у ремонтному "
+"замовленні."
+
+#. module: repair_picking_after_done
+#. odoo-python
+#: code:addons/repair_picking_after_done/wizards/repair_move_transfer.py:0
+msgid "Quantity to transfer must be greater than 0."
+msgstr "Кількість для переміщення має бути більшою за 0."

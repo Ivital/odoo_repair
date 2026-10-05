@@ -52,3 +52,9 @@ msgstr "Календар замовлень ремонту"
 #: model:ir.model.fields,help:repair_scheduled_date_calendar_view.field_repair_order__planned_duration
 msgid "Planned duration of the repair order in hours."
 msgstr "Запланована тривалість замовлення на ремонт у годинах."
+
+#. module: repair_scheduled_date_calendar_view
+#. odoo-python
+#: code:addons/repair_scheduled_date_calendar_view/models/repair_order.py:0
+msgid "Planned duration must be non-negative."
+msgstr "Запланована тривалість не може бути від’ємною."

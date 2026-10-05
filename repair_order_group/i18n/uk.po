@@ -140,3 +140,49 @@ msgstr "Ремонти з однаковою групою можна оброб�
 #: model:ir.model.fields,help:repair_order_group.field_repair_order__show_add_grouped_repair
 msgid "Technical field used to control the Add Grouped Repair button."
 msgstr "Технічне поле для керування кнопкою «Додати згрупований ремонт»."
+
+#. module: repair_order_group
+#. odoo-python
+#: code:addons/repair_order_group/models/repair_order.py:0
+msgid ""
+"Several open sale orders are already linked to repair orders from the same repair group and warehouse.\n"
+"Concerned repair order(s):\n"
+"%(ref_str)s"
+msgstr ""
+"Кілька відкритих замовлень продажу вже пов’язані з ремонтними замовленнями тієї самої групи ремонту та складу.\n"
+"Відповідні ремонтні замовлення:\n"
+"%(ref_str)s"
+
+#. module: repair_order_group
+#. odoo-python
+#: code:addons/repair_order_group/models/repair_order.py:0
+msgid ""
+"You cannot add a grouped repair in the current repair state or when the "
+"related sale order is confirmed or cancelled."
+msgstr ""
+"Не можна додати груповий ремонт у поточному стані ремонту або коли пов’язане"
+" замовлення продажу підтверджене чи скасоване."
+
+#. module: repair_order_group
+#. odoo-python
+#: code:addons/repair_order_group/models/repair_order.py:0
+msgid ""
+"You cannot create a quotation for a repair order that is already linked to an existing sale order.\n"
+"Concerned repair order(s):\n"
+"%(ref_str)s"
+msgstr ""
+"Не можна створити комерційну пропозицію для ремонтного замовлення, уже пов’язаного з наявним замовленням продажу.\n"
+"Відповідні ремонтні замовлення:\n"
+"%(ref_str)s"
+
+#. module: repair_order_group
+#. odoo-python
+#: code:addons/repair_order_group/models/repair_order.py:0
+msgid ""
+"You need to define a customer for a repair order in order to create an associated quotation.\n"
+"Concerned repair order(s):\n"
+"%(ref_str)s"
+msgstr ""
+"Щоб створити пов’язану пропозицію, у ремонтному замовленні потрібно визначити клієнта.\n"
+"Відповідні ремонтні замовлення:\n"
+"%(ref_str)s"
